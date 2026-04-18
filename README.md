@@ -25,6 +25,17 @@ For account-specific help, billing questions, or anything you don't want in publ
 
 We read everything. We read faster when you tell us what you've already tried.
 
+## Integrations and plugins
+
+| Tool | Package | Notes |
+|---|---|---|
+| **OpenClaw** | [`@strakelabs/openclaw-strake`](https://www.npmjs.com/package/@strakelabs/openclaw-strake) | Provider plugin — route OpenClaw inference through a Strake endpoint without exposing your real API key |
+| **Cursor / VS Code** | built-in | Use your Strake endpoint URL as a custom OpenAI-compatible base URL |
+| **Claude Code** | built-in | Set `ANTHROPIC_BASE_URL` to your Strake endpoint |
+| **OpenAI SDK** | built-in | Pass `baseURL` and `apiKey` from your Strake endpoint |
+
+More integration guides at [strake.sh/docs](https://strake.sh/docs/).
+
 ## Links
 
 - [strake.sh](https://strake.sh) — product overview and pricing
